@@ -12,7 +12,7 @@ article {
 .calculator {
   width: 287px;
   border: 1px solid #333;
-  background-color: #ccc;
+  background-color: #cee741;
   padding: 5px;
   display: inline-block;
 }
@@ -30,13 +30,13 @@ article {
   box-shadow: 1px 1px 2px #333;
 }
 .calculator form .clear {
-  background-color: #ed4848;
+  background-color: #ed8848;
 }
 .calculator form .operator {
-  background-color: orange;
+  background-color: #f65;
 }
 .calculator form .dot {
-  background-color: green;
+  background-color: lightgreen;
 }
 .calculator form input[type="text"] {
   grid-column: span 4;
