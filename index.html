@@ -12,7 +12,7 @@
       <h1>계산기</h1>
       <div class="calculator">
         <form name="forms">
-          <input type="text" name="output" readonly />
+          <input type="text" value="" name="output" readonly />
           <input
             type="button"
             class="clear"
@@ -97,7 +97,7 @@
           />
           <input
             type="button"
-            class="operator_result"
+            class="operator result"
             value="="
             onclick="document.forms.output.value=eval(document.forms.output.value)"
           />
